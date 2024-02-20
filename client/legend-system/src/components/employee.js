@@ -43,10 +43,10 @@ function Employee() {
         <table className="table table-striped">
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Address</th>
-              <th>Salary</th>
+              <th>Task Name</th>
+              <th>Description</th>
+              {/* <th>Address</th>
+              <th>Salary</th> */}
               <th>Action</th>
             </tr>
           </thead>
@@ -56,8 +56,8 @@ function Employee() {
                 <tr key={index}>
                   <td>{employee.name}</td>
                   <td>{employee.email}</td>
-                  <td>{employee.address}</td>
-                  <td>{employee.salary}</td>
+                  {/* <td>{employee.address}</td>
+                  <td>{employee.salary}</td> */}
                   <td>
                     <Link
                       to={`/employeeedit/` + employee.id}

@@ -34,7 +34,7 @@ function Home() {
       <div className="p-3 d-flex justify-content-around mt-3">
         <div className="px-3 pt-2 pb-3 border shadow-sm w-25">
           <div className="text-center pb-1">
-            <h4>Admin</h4>
+            <h4>users</h4>
           </div>
           <hr />
           <div>
@@ -43,14 +43,14 @@ function Home() {
         </div>
         <div className="px-3 pt-2 pb-3 border shadow-sm w-25">
           <div className="text-center pb-1">
-            <h4>Employee</h4>
+            <h4>Task</h4>
           </div>
           <hr />
           <div>
             <h5>Total: {employeeCount}</h5>
           </div>
         </div>
-        <div className="px-3 pt-2 pb-3 border shadow-sm w-25">
+        {/* <div className="px-3 pt-2 pb-3 border shadow-sm w-25">
           <div className="text-center pb-1">
             <h4>Salary</h4>
           </div>
@@ -58,7 +58,7 @@ function Home() {
           <div>
             <h5>Total: {salary}</h5>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
